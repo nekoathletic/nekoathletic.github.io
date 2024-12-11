@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>トップページ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        // ユーザーエージェントでスマホを判定
+        const isSmartphone = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    
+        if (isSmartphone) {
+          // スマホの場合に sumaho.html にリダイレクト
+          window.location.href = "sumaho.html";
+        }
+      </script>
+      
+</head>
+<body>
+    <div class="main">
+        <nav>
+            
+            <div class="logo-area">
+                <img src="./img/nekoアスレ.webp" alt="" class="logo">
+                <h2>NekoAthletic</h2>
+            </div>
+           
+
+            <div class="nav-links">
+                <ul>
+                    <a href=""><li>トップページ</li></a>
+                    <a href="manager/"><li>運営メンバー</li></a>
+                    <a href=""><li>場所</li></a>
+                    <a href=""><li>discord鯖</li></a>
+                    <a href=""><li>お問い合わせ</li></a>
+                </ul>
+            </div>
+        </nav>
+        <div class="nekotext">
+            <h1>
+                NekoAthletic
+            </h1>
+        </div>
+        <div class="sanka">
+            <ul>
+                <a href="https://www.youtube.com/"><li>参加する</li></a>
+            </ul>
+        </div>
+        
+    </div>
+</body>
+</html>
